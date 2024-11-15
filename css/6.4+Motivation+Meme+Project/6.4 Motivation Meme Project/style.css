@@ -1,0 +1,24 @@
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    
+}
+
+.figure {
+    width: 100%;    
+    border: 5px solid black;
+}
+
+body {
+    
+    background-color:black; 
+   
+}
+
+.div {
+    width: 50%; 
+    margin-left: 25% ;
+    font-family:"Regular Libre Baskerville",cursive, sans-serif;
+    text-align: center;
+    color: white; 
+}
