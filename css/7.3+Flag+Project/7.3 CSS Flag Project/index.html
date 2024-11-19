@@ -6,19 +6,77 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
-  </style>
-</head>
+      /*bandeira vermelha */
+    .flag{
+      background-color:#ce1126;
+      width: 900px;
+      height: 600px;    
+      position: relative;     
+         
+    }
 
-<!-- 
+      /* quadarado azul */
+    .flag div {
+      background-color:#002868; 
+      width: 100%;
+      height: 400px;    
+     /*  display: flex;
+      justify-content: center;
+      align-items: center;  */  
+      position: absolute;
+ 
+       }
+ 
+    div > div p  {
+      color: black; 
+      font-size: 3rem;
+      text-align: center; 
+/*       background-color:#002868; 
+      width: 900px;
+      height: 400px;   */  
+    /*   display: flex;
+      justify-content: center;
+      align-items: center;  */     
+    } 
+
+    div > p {  
+      color: white; 
+      font-size: 3rem;
+      text-align: center; 
+/*       display: flex;
+      justify-content: center;   */
+     }  
+
+    div div div p {
+       background-color:white;
+      width: 200px;
+      height: 200px;
+      border-radius: 1px solid;
+      border-radius: 100%;
+      color: black;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+  /*     display: flex;
+      justify-content: center;
+      align-items: center;   
+       */
+     }
+
+   
+   
+
+/*  
   IMPORTANT! Do not change any HTML
 Don't add any classes/ids/elements 
 Use what you know about combining selectors 
 and CSS specificity instead.
 Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
 Hint 2: You can use CSS inspection to get the colors from
-https://appbrewery.github.io/flag-of-laos/
--->
+https://appbrewery.github.io/flag-of-laos/  */
+
+</style>
+</head>
 
 <body>
   <div class="flag">

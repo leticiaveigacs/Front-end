@@ -3,8 +3,8 @@
 
 <!-- 
   TODO
-1. By changing only the display property of the CSS make all 3 squares line up horizontally like in goal1 image.
-2. Change only the display property to make all 3 squares line up vertically like in goal2 image. 
+s1. By changing only the display property of the CSS make all 3 squares line up horizontally like in goal1 image.
+s2. Change only the display property to make all 3 squares line up vertically like in goal2 image. 
 -->
 
 <head>
@@ -15,21 +15,24 @@
     }
 
     .red {
-      display: block;
+/*  s1     display: inline-block; */     
+      display: block; /*  s2 */
       width: 200px;
       height: 200px;
       background-color: red;
     }
 
     .green {
-      display: inline;
+  /* s1      display: inline-block;*/
+      display: block;/*  s2 */
       width: 200px;
       height: 200px;
       background-color: green;
     }
 
     .blue {
-      display: inline-block;
+  /* s1      display: inline-block; */
+      display: block; /*  s2 */
       width: 200px;
       height: 200px;
       background-color: blue;
