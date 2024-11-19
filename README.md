@@ -1,13 +1,25 @@
-###Development Bootcamp (Full-Stack)
+### Web Development Bootcamp (Full-Stack)
 
-É com grande entusiasmo que compartilho minha conclusão do curso _"The Complete 2024 Web Development Bootcamp (Full-Stack)" pela Instituição Udemy!🚀
+It's with great enthusiasm that I share my completion of the course _"The Complete 2024 Web Development Bootcamp (Full-Stack)"_ by the Udemy Institution! 🚀
 
-Esse curso atualizado, com 62 horas de formação prática, foi uma imersão completa no desenvolvimento web, abrangendo tanto Front-End quanto Back-End, além de integrar as tecnologias mais recentes do mercado. A experiência foi transformadora,desenvolvendo e estabelecendo algumas habilidades que são importantes para projetos modernos e dinâmicos.
+This updated course, with **62 hours of practical training**, was a complete immersion in web development, covering both **Front-End** and **Back-End**, as well as integrating the latest technologies on the market. The experience was transformative, developing and establishing key skills essential for modern, dynamic projects.
 
-🛠️ Competências Desenvolvidas na  parte Front-End:
-- HTML5, CSS3, Flexbox e Grid: Estruturas e design responsivo.
-- Bootstrap 5 e JavaScript ES6: Funcionalidade e estilização avançadas.
-- DOM Manipulation e jQuery: Interatividade e otimização.
-- Git e Controle de Versão: Gerenciamento eficiente de código.
-- React.js e Hooks: Criação de interfaces modernas e dinâmicas.
-- Deployment: Publicação de projetos no GitHub Pages.
+This repository contains the **Front-End** part.
+
+---
+
+### 🛠️ Skills Developed on the Front-End:
+- **HTML5, CSS3, Flexbox, and Grid:** Structures and responsive design.
+- **Bootstrap 5 and JavaScript ES6:** Advanced functionality and stylization.
+- **DOM Manipulation and jQuery:** Interactivity and optimization.
+- **Git and Version Control:** Efficient code management.
+- **React.js and Hooks:** Creating modern and dynamic interfaces.
+- **Deployment:** Publishing projects on GitHub Pages.
+
+### 🛠️ Skills Developed on the Back-End:
+- **Node.js and Express.js:** Building robust servers.
+- **REST APIs:** Efficient communication and integration between systems.
+- **Databases:** Working with SQL and PostgreSQL for data storage and management.
+- **Authentication:** Implementing secure login systems.
+
+
