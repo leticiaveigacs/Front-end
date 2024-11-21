@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: left;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+
+}
+
+h1 span { color: midnightblue;}
+
+div .tile-image {
+  width: 300px;
+  height: 200px;
+}
+
+/* main {
+  display: inline-block;
+  background-color:red ;
+
+} */
+
+h2 , p {display: block;}
+
+div .tile-image{display: inline-block; }
+/* 
+ #rigth {display: inline-block;}
+ #left{display: inline-block;} */
+
+div .rightcard {float:right; text-align: right; width: 600px}
+div .leftcard {float:left; text-align: left;  width:600px; /* Largura fixa */
+  margin-right: 20px; /* Espaço entre as colunas */}
+
+div .rightcard {display: inline-block;}
+div .leftcard {display: inline-block;}
+
+.rightcard p, .rightcard h2 {   margin-right: 50px;}
+
+
+footer p {display: block; clear: both;}
+
+
+.rightcard img {
+  float: left;
+
+}
+
+
+.leftcard img{ 
+  float: left;
+   margin-left:50px ; 
+
+} 
+
+
+@media (max-width: 600px) {
+
+  div .rightcard  {
+    display: block;
+    text-align: center;
+
+  }
+
+  div .tile-image {
+    width: 500px;
+    height: 300px;
+    
+  }
+
+  div .leftcard {
+    display: block;
+    text-align: center;
+  }
+
+  .leftcard img{ 
+ 
+     margin-left:0 ; 
+  
+  } 
+  
+}
